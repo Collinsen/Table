@@ -1,0 +1,26 @@
+.tb{
+    width: 50%;
+    padding: 25px;
+    border-collapse: collapse;
+    background-color: white;
+    outline: none;
+}
+table, th, td{
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+.tb th{
+    text-align: left;
+    background-color: chartreuse;
+    color: white;
+    padding: 20px;
+}
+.tb td{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+.tb td:nth-child(even){background-color: #ddd;} 
+.tb tr:nth-child(even){background-color: #ddd;}
+.tb td:hover{background-color: chartreuse;}
